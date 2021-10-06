@@ -1,4 +1,33 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.ant-carousel .slick-dots {
+	right: inherit;
+	margin-left: 5% !important;
+}
+
+.ant-carousel .slick-dots button {
+	height: 15px !important;
+	width: 15px !important;
+	border-radius: 50% !important;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-prev:hover {
+	left: 10px;
+	z-index: 2;
+	color: white;
+	font-size: 20px;
+	height: 30px;
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-next:hover {
+	right: 10px;
+	z-index: 2;
+	color: white;
+	font-size: 20px;
+	height: 30px;
 }

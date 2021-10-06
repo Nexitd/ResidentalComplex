@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Select, Row } from "antd";
 import Footer from "../../components/Footer";
 import ResCard from "../../components/Card";
+import img from "../../assets/images/NewBuildings/Rectangle 23.png"
 import styles from "./NewConstructions.module.css";
 
 const NewConstructions = () => {
@@ -67,14 +68,14 @@ const NewConstructions = () => {
       <div className={styles.containerBody}>
         <div className={styles.bodyContainer}>
           <Row gutter={[30, 30]} justify='center' wrap={true}>
-            <ResCard />
-            <ResCard />
-            <ResCard />
-            <ResCard />
-            <ResCard />
-            <ResCard />
-            <ResCard />
-            <ResCard />
+            <ResCard image={img}/>
+            <ResCard image={img}/>
+            <ResCard image={img}/>
+            <ResCard image={img}/>
+            <ResCard image={img}/>
+            <ResCard image={img}/>
+            <ResCard image={img}/>
+            <ResCard image={img}/>
           </Row>
         </div>
       </div>

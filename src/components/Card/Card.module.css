@@ -1,7 +1,8 @@
 .resCard {
-    width: 100%;
+    width: 250px;
     position: relative;
     cursor: pointer;
+    margin-bottom: 140px;
 }
 
 .resCard img {

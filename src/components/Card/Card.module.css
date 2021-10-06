@@ -1,0 +1,37 @@
+.resCard {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.resCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+}
+
+.body::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #251B3D;
+}

@@ -1,0 +1,72 @@
+.containerHeader {
+  width: 100%;
+  padding: 38px 0 89px;
+  height: 100%;
+  background: url("../../assets/images/NewBuildings/main.png") 100% 100% no-repeat;
+  background-size: cover;
+}
+
+.headTitle {
+  text-align: center;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 75px;
+  color: #fff;
+}
+
+.containerFilters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin-right: 50px;
+}
+
+.filtersItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #fffafa;
+  border: 1px solid #c3a25d;
+}
+
+.text {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #c1a166;
+}
+
+.searchCards {
+  width: 180px;
+  line-height: 34px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(180deg, #b59555 0%, #5b4925 100%);
+}
+
+.containerBody {
+  background: url("../../assets/images/NewBuildings/тругольники\ фон.svg") no-repeat, linear-gradient(96.7deg, #4D486C 44.74%, #5B0042 111.3%);
+  background-size: cover;
+}
+
+.bodyContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 73px 20px;
+}
